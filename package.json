@@ -1,0 +1,17 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  
+    "scripts": {
+      "build-css": "postcss src/styles.css -o src/tailwind.css"
+    },
+    "devDependencies": {
+      "tailwindcss": "^2.2.19",
+      "postcss": "^8.3.11",
+      "autoprefixer": "^10.3.7",
+      "postcss-cli": "^8.3.1"
+    }
+  }
+  
